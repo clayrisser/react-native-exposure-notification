@@ -5,6 +5,7 @@
   "description": "access the covid-19 exposure notification api from react native",
   "main": "index.js",
   "scripts": {
+    "start": "cd example && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
