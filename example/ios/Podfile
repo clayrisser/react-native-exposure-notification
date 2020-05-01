@@ -43,4 +43,6 @@ target 'example' do
 
   # react-native-cli autolinking
   use_native_modules!
+  pod 'react-native-exposure-notification', :path => '../node_modules/react-native-exposure-notification'
+
 end
