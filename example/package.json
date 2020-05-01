@@ -3,9 +3,10 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "web": "expo start --web",
-    "start": "react-native start",
-    "test": "jest"
+    "prepare": "jetify",
+    "start": "npm run prepare && react-native start",
+    "test": "jest",
+    "web": "expo start --web"
   },
   "dependencies": {
     "expo": "~37.0.3",
@@ -13,7 +14,7 @@
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "~0.61.5",
-    "react-native-exposure-notification": "link:../",
+    "react-native-exposure-notification": "latest",
     "react-native-gesture-handler": "~1.6.0",
     "react-native-reanimated": "~1.7.0",
     "react-native-screens": "~2.2.0",
