@@ -2,20 +2,27 @@
 
 > access the covid-19 exposure notification api from react native
 
-## Getting started
+**If you are an approved public health authority trying to integrate a react native
+app with the ios or android exposure notification api, I would love to collaberate
+with you to help get your app out as fast as possible. You can contact me at the link
+below.**
 
-`$ npm install react-native-exposure-notification --save`
+[https://codejam.ninja/#hire](https://codejam.ninja/#hire)
 
-### Mostly automatic installation
+## Setup
 
-`$ react-native link react-native-exposure-notification`
+```sh
+npm install --save react-native-exposure-notification
+react-native link react-native-exposure-notification
+```
 
 ## Usage
-```javascript
-import ExposureNotification from 'react-native-exposure-notification';
 
-// TODO: What to do with the module?
-ExposureNotification;
+```js
+import ExposureNotification from 'react-native-exposure-notification';
+import exposureConfiguration from './exposureConfiguration'
+
+ExposureNotification.start(exposureConfiguration);
 ```
 
 ## References
