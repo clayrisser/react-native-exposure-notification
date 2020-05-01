@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import ExposureNotification from 'react-native-exposure-notification';
 
 export default function App() {
-  ExposureNotification.sampleMethod('hello', 5, console.log);
+  ExposureNotification.start();
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
