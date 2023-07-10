@@ -1,5 +1,7 @@
 # react-native-exposure-notification
 
+![](assets/react-native-exposure-notification.png)
+
 > access the covid-19 exposure notification api from react native
 
 **If you are trying to integrate a react native app with the ios or android exposure
